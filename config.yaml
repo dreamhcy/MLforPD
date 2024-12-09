@@ -1,0 +1,11 @@
+seed: 21
+# dataset
+# model
+k: 5
+select: 'RandomForest'
+top_n: 30
+modality: ['kinematic', 'pressure', 'angle', 'moment']
+all: True
+classifier: 'adaboost'
+epoch: 10
+pop_size: 30
